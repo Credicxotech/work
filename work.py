@@ -22,7 +22,7 @@ def get_browser():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument('--proxy-server=%s' % PROXY)
     chrome_options.add_argument("--disable-notifications")
-    browser = webdriver.Chrome(executable_path= r"/root/facebook_visit/chromedriver" ,options=chrome_options)
+    browser = webdriver.Chrome(executable_path= r"root/facebook_visit/chromedriver" ,options=chrome_options)
     return browser  
 
 if __name__ == '__main__':
